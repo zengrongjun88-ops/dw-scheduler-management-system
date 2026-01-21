@@ -12,7 +12,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * Swagger/Knife4j Configuration
+ * Knife4j/Swagger配置
  *
  * @author DW Team
  * @version 1.0.0
@@ -33,9 +33,9 @@ public class Knife4jConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("DW Scheduler Management System API")
-                .description("Distributed Workflow Scheduler Management System - RESTful API Documentation")
-                .contact(new Contact("DW Team", "https://github.com/yourusername/dw-scheduler-management-system", "contact@example.com"))
+                .title("DW调度管理系统 API文档")
+                .description("现代化调度系统管理后端 RESTful API接口文档")
+                .contact(new Contact("DW Team", "https://github.com/zengrongjun88-ops/dw-scheduler-management-system", "contact@example.com"))
                 .version("1.0.0")
                 .build();
     }
