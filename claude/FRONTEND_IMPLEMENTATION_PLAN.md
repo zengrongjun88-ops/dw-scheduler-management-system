@@ -905,7 +905,7 @@ server {
 
 ```json
 {
-  "name": "scheduler-frontend",
+  "name": "dw-scheduler-management-frontend",
   "version": "1.0.0",
   "type": "module",
   "scripts": {

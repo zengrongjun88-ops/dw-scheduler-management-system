@@ -4,8 +4,8 @@
 
 | 项目名称 | 调度管理系统前端 |
 |---------|----------------|
-| 项目代码 | scheduler-frontend |
-| 仓库地址 | https://github.com/zengrongjun88-ops/frontend |
+| 项目代码 | dw-scheduler-management-frontend |
+| 仓库地址 | https://github.com/zengrongjun88-ops/dw-scheduler-management-frontend |
 | 技术栈 | React 18 + TypeScript + Vite 5 + Ant Design 5 |
 | 交付日期 | 2026-01-21 |
 
@@ -200,7 +200,7 @@ frontend/
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/zengrongjun88-ops/frontend.git
+git clone https://github.com/zengrongjun88-ops/dw-scheduler-management-frontend.git
 cd frontend
 ```
 
@@ -301,7 +301,7 @@ npm run build
 
 ## 相关链接
 
-- **前端仓库**: https://github.com/zengrongjun88-ops/frontend
+- **前端仓库**: https://github.com/zengrongjun88-ops/dw-scheduler-management-frontend
 - **后端仓库**: https://github.com/zengrongjun88-ops/dw-scheduler-management-system
 - **后端API文档**: http://localhost:8080/api/doc.html
 - **需求文档**: ../claude/REQUIREMENT.md

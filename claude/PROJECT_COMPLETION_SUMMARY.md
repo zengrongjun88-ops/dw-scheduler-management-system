@@ -88,7 +88,7 @@ http://localhost:8080/api/druid/login.html (admin/admin)
 
 ### 2.1 项目信息
 
-- **仓库地址**: https://github.com/zengrongjun88-ops/frontend
+- **仓库地址**: https://github.com/zengrongjun88-ops/dw-scheduler-management-frontend
 - **技术栈**: React 18 + TypeScript + Vite 5 + Ant Design 5
 - **代码规模**: 45个文件，3939行代码
 
@@ -147,7 +147,7 @@ http://localhost:8080/api/druid/login.html (admin/admin)
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/zengrongjun88-ops/frontend.git
+git clone https://github.com/zengrongjun88-ops/dw-scheduler-management-frontend.git
 cd frontend
 
 # 2. 安装依赖（注意：需要先解决npm权限问题）
@@ -361,8 +361,8 @@ npm run build
 # 配置反向代理到后端API
 
 # 或使用Docker
-docker build -t scheduler-frontend .
-docker run -p 80:80 scheduler-frontend
+docker build -t dw-scheduler-management-frontend .
+docker run -p 80:80 dw-scheduler-management-frontend
 ```
 
 详细部署方案参见:
@@ -404,7 +404,7 @@ docker run -p 80:80 scheduler-frontend
 | 资源 | 链接 |
 |-----|------|
 | 后端仓库 | https://github.com/zengrongjun88-ops/dw-scheduler-management-system |
-| 前端仓库 | https://github.com/zengrongjun88-ops/frontend |
+| 前端仓库 | https://github.com/zengrongjun88-ops/dw-scheduler-management-frontend |
 | 后端API文档 | http://localhost:8080/api/doc.html |
 | Druid监控 | http://localhost:8080/api/druid/login.html |
 | 需求文档 | dw-scheduler-management-system/claude/REQUIREMENT.md |
